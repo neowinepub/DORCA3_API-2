@@ -30,7 +30,7 @@
 
 int fd_19;
 #define MAX_BUF 1024
-#define DEMO_BOARD
+//#define DEMO_BOARD
 #ifndef ETRY_CODE
 #if 1
 #define CS0   8
