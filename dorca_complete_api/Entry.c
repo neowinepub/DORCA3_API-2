@@ -177,7 +177,7 @@ void Pon()
 {
 	Export(POWER);
 	Direction(POWER,1);
-	WriteValue(POWER,0);
+	WriteValue(POWER,1);// POWER ON.. IF this is not working change value to 0
 
 	UnExport(CS0);
 	UnExport(CS1);
@@ -210,7 +210,7 @@ void Poff()
 
 	Export(POWER);
 	Direction(POWER,1);
-	WriteValue(POWER,1);
+	WriteValue(POWER,0); // POWER ON.. IF this is not working change value to 1
 
 	Dorca3Close();
 
